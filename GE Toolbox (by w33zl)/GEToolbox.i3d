@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="untitled" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="9.0.3"/>
+  </Asset>
+
+  <Files>
+  </Files>
+
+
+  <Materials>
+  </Materials>
+
+
+  <Shapes>
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+      <TransformGroup name="Settings" nodeId="59">
+        <Note name="note" scale="2 2 2" nodeId="60" text="GE Toolbox by w33zl\n\nBefore you can use the scripts provided in GE Toolbox you first need to initialize the script collection by running a script named &quot;Setup&quot;. \n\nINSTRUCTIONS:\n1. Open menu Window &gt; Scripts Editor\n2. Navigate to &quot;User \ GE Toolbox (by w33zl) \ Config.lua&quot;\n3. Click Execute. \n\nThat&apos;s it,  you can now close the editor and use the scripts in GE Toolbox.\n\nPlease check https://github.com/w33zl/GE-Toolbox for instructions, latest updates and report issues." color="5299450" fixedSize="true"/>
+      </TransformGroup>
+      <Camera name="viewNote" translation="0 0 10.5466" visibility="false" nodeId="61" fov="60" nearClip="0.1" farClip="10000" orthographicHeight="1"/>
+  </Scene>
+
+</i3D>
