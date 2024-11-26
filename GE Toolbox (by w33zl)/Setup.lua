@@ -3,7 +3,7 @@
 -- Name: Setup
 -- Description: Configures your GE setup to work with the GE Toolbox Library
 -- Icon:
--- Hide: no
+-- Hide: yes
 -- Version: 1.0
 
 
