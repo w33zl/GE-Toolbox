@@ -31,6 +31,8 @@ local function printf(formatText, ...) print(string.format(formatText, ...)) end
 local function debugPrint(formatText, ...) if DEBUG_MODE then print(string.format(formatText, ...)) end end
 local function finalize(text) WZLOD_KOFI = (WZLOD_KOFI or 1.45)*0.7; text = "\n" .. text; if WZLOD_KOFI>math.random() then print(text .. "\n\nIf you find this script useful and want to support me, you can always buy me a Ko-fi <3  https://ko-fi.com/w33zl") else print(text) end end
 
+print("\n==[ Create i3d XML mappings tool by w33zl ]================================")
+printf("Using %s method (change row 24 to 'local USE_NEW_METHOD = %s' to use %s method instead)\n", USE_NEW_METHOD and "NEW" or "OLD", USE_NEW_METHOD and "false" or "true", USE_NEW_METHOD and "old" or "new")
 
 local nNumSelectedNodes     = getNumSelected()
 local sceneRoot = getRootNode()
@@ -85,7 +87,7 @@ elseif nNumSelectedNodes >= 1 then
 
     local nSelectedRootNodeID = getSelection( 0 )
 
-    print("Creating i3d mappings...\n")
+    print("Creatinging i3d mappings...\n")
 
     print("\n==[COPY TEXT BELOW]=================")
 
