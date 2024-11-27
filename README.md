@@ -8,7 +8,8 @@ GE Toolbox is a collection of scripts, tools and guides to simplify modding for 
 ## Overview / Contents
 
 - [Spline Tools](SplineTools.md) - Export splines to .csv or .obj files
-- [XML Tools](XMLTools.md) - Create i3d mappings and other XML nodes from the scene graph
+- [XML Tools](XMLTools.md) - Create i3d mappings and other XML nodes from the scenegraph
+- [Node Tools](NodeTools.md) - Utility tools to assist working with the nodes in the scenegraph
 
 
 ## Installation
