@@ -1,4 +1,5 @@
 ![GE Toolbox](https://user-images.githubusercontent.com/7383510/200933607-30adf443-d2b2-49b0-8ec6-0a5abc0539e4.png)
+> _Note_: This the updated GE Toolbox for Giants Editor 10 (FS25). The old version is found on the [GE9 Toolbox](https://github.com/w33zl/GE9-Toolbox) page.
 
 GE Toolbox is a collection of scripts, tools and guides to simplify modding for Farming Simulator. The goal is to make you more productive and spend less time on mundane tasks, letting you focus more on the creative parts of modding.
 
@@ -6,13 +7,13 @@ GE Toolbox is a collection of scripts, tools and guides to simplify modding for 
 
 ## Overview / Contents
 
-- [Export Spline to a .obj file](Spline2Obj.md)
-- [XML Tools](XMLTools.md)
+- [Spline Tools](SplineTools.md) - Export splines to .csv or .obj files
+- [XML Tools](XMLTools.md) - Create i3d mappings and other XML nodes from the scene graph
 
 
 ## Installation
 1. Download [latest GE Toolbox release](https://github.com/w33zl/GE-Toolbox/releases/latest)
-2. Unzip the contents of the `GE-Toolbox_vX.X.X` zip archive into your user scripts folder for GE (e.g. `%LocalAppData%\GIANTS Editor 64bit 9.0.3\scripts\`)
+2. Unzip the contents of the `GE-Toolbox_vX.X.X` zip archive into your user scripts folder for GE (e.g. `%LocalAppData%\GIANTS Editor 64bit 10.0.2\scripts\`)
 3. (Re)start Giants Editor
 
 > ***Important:** Make sure you extract the contents of the zip archive directly into the scripts-folder. If you download the code manually using the "Download zip" option you should extract the subcontents of the "GE-Toolbox-master"-folder, i.e. the "GE Toolbox (by w33zl)" folder should be placed directly in the scripts-folder.*
@@ -34,7 +35,7 @@ I love to hear you feedback so please check out my [Facebook](https://www.facebo
 
 ## License
 
-*GE Toolbox © 2022 by w33zl is licensed under [CC BY-NC-ND 4.0](http://creativecommons.org/licenses/by-nc-nd/4.0/) (Creative Commons Attribution-NonCommercial-ShareAlike).* 
+*GE Toolbox © 2022-2024 by w33zl is licensed under [CC BY-NC-ND 4.0](http://creativecommons.org/licenses/by-nc-nd/4.0/) (Creative Commons Attribution-NonCommercial-ShareAlike).* 
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a> 
 

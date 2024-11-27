@@ -2,7 +2,9 @@
 
 The scripts takes the selected node (if it is a spline) and outputs it as a mesh in an .obj file that can be imported into e.g. Blender or Houdini.
 
-## Usage
+## Spline to OBJ (.obj)
+
+### Usage
 1. Select spline node in GE
 2. Execute script "*Spline 2 Obj*" (for keyboard shortcut, check [GE-HAM](https://github.com/w33zl/GE-Hotkeys-and-Macros))
 3. A file dialog is shown where you should choose a filename for the output .obj file
@@ -12,7 +14,7 @@ The scripts takes the selected node (if it is a spline) and outputs it as a mesh
 *__Important__: The file dialog in step three will not give you a warning if you provide a filename of an existing file, however the script will abort the execution with a warning message. If you then choose to run the script again with the same filename the file **will be overwritten**.*
 
 
-## Import a OBJ file as a curve in Blender
+### Import a OBJ file as a curve in Blender
 
 1. In GE, export the spline into .obj file using the `Spline 2 Obj` script
 2. In Blender, choose *File>Import>Wavefront (.obj)*
@@ -22,3 +24,16 @@ The scripts takes the selected node (if it is a spline) and outputs it as a mesh
 6. Tab into Edit Mode, goto the menu *Curve>Set Spline Type>NURBS*
 
 The sixth and final step is only needed if your spline in GE has the Spline Type "Cubic".
+
+
+
+## Spline to CSV (.csv text file)
+
+### Usage
+1. Select spline node in GE
+2. Execute script "*Spline 2 CSV*" (for keyboard shortcut, check [GE-HAM](https://github.com/w33zl/GE-Hotkeys-and-Macros))
+3. A file dialog is shown where you should choose a filename for the output .csv file
+4. Open your 3D editor of choice and import the .csv file
+5. Refer to the documentation for your specific 3D editor for instructions on how to import a CSV file
+
+*__Important__: The file dialog in step three will not give you a warning if you provide a filename of an existing file, however the script will abort the execution with a warning message. If you then choose to run the script again with the same filename the file **will be overwritten**.*
