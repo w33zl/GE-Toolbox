@@ -3,7 +3,7 @@
 
 GE Toolbox is a collection of scripts, tools and guides to simplify modding for Farming Simulator. The goal is to make you more productive and spend less time on mundane tasks, letting you focus more on the creative parts of modding.
 
-![image](.res/GE_Toolbox_Tools.png)
+![image](https://raw.githubusercontent.com/w33zl/GE-Toolbox/refs/heads/master/.res/GE_Toolbox_Tools.png)
 
 ## Overview / Contents
 
