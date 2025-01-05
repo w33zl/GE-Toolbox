@@ -5,6 +5,8 @@ GE Toolbox is a collection of scripts, tools and guides to simplify modding for 
 
 ![image](https://raw.githubusercontent.com/w33zl/GE-Toolbox/refs/heads/master/.res/GE_Toolbox_Tools.png)
 
+![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/w33zl/GE-Toolbox/total)
+
 ## Overview / Contents
 
 - [Spline Tools](SplineTools.md) - Export splines to .csv or .obj files
